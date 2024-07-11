@@ -28,7 +28,7 @@ import Search from "./components/Search/Search";
 
 const App = () => {
   return (
-    <div style={{marginTop:"10vh"}}>
+    <div style={{marginTop:"13vh"}}>
 
       <Toaster/>
     
