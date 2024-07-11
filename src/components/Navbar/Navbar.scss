@@ -2,6 +2,11 @@
   background-color: #191970; /* Dark blue background color */
   color: white;
   padding: 0.5rem 1rem; /* Adjusted padding for better spacing */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000; /* Ensure navbar is above other content */
 
   .nav-items {
     display: flex;
@@ -112,6 +117,7 @@
           .cart-icon {
             font-size: 24px;
             color: white;
+            position: relative;
           }
 
           h3 {
@@ -125,6 +131,9 @@
             justify-content: center;
             align-items: center;
             font-size: 14px;
+            position: absolute;
+            top: -8px; /* Adjust position to align with cart icon */
+            right: -8px; /* Adjust position to align with cart icon */
           }
         }
       }
