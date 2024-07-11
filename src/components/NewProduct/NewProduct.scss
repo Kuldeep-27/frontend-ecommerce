@@ -1,0 +1,30 @@
+
+
+.new-product-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:3vh;
+   
+   
+
+
+    form{
+        border:1px solid grey;
+        padding:2%;
+        display:flex;
+        flex-direction:column;
+        gap:1vh;
+        width:50%;
+        margin:auto;
+       
+    }
+}
+
+@media screen and (max-width:500px){
+    .new-product-container{
+        form{
+            width:100%;
+        }
+    }
+}

@@ -1,0 +1,12 @@
+.shimmer-container{
+    display:flex;
+    gap:2vw;
+    height:50vh;
+    width:100vw;
+
+    div{
+        flex-basis:20%;
+        background-color: #f0f0f0
+    }
+
+}

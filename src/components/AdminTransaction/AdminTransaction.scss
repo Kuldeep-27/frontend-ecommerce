@@ -1,0 +1,52 @@
+
+
+.admin-transaction-container{
+    .menu-container{
+        display:flex;
+       
+        flex-direction: column;
+        padding:2vh 2vw;
+       
+        border:1px solid black;
+
+        .heading{
+            display:flex;
+            justify-content: space-between;
+
+            h2{
+                flex-basis:100%;
+                text-align:center;
+            }
+
+        }
+
+
+        h2{
+            color:purple;
+        }
+    }
+}
+
+@media screen and (max-width:700px){
+    .admin-transaction-container{
+        .menu-container{
+            .heading{
+                h2{
+                    font-size:0.9rem;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:500px){
+    .admin-transaction-container{
+        .menu-container{
+            .heading{
+                h2{
+                    font-size:0.6rem;
+                }
+            }
+        }
+    }
+}

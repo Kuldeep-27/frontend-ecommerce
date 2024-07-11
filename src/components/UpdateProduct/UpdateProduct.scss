@@ -1,0 +1,38 @@
+
+
+.update-product-container{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    margin:3vh;
+   
+
+    .manage{
+        width:100%;
+        display:flex;
+        justify-content: flex-end;
+
+        .delete{
+            background-color:red;
+        }
+        
+    }
+
+    form{
+        display:flex;
+        flex-direction:column;
+        gap:1vh;
+        width:40%;
+        margin:auto;
+    }
+
+    
+}
+
+@media screen and (max-width:650px){
+    .update-product-container{
+        form{
+            width:100%;
+        }
+    }
+}

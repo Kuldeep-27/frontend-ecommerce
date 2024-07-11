@@ -1,0 +1,45 @@
+.body-container{
+   
+    display:flex;
+    flex-direction: column;
+  
+
+
+    .latest-container{
+        display:flex;
+        justify-content: space-between;
+        flex-wrap:wrap;
+        width:90%;
+        margin:2vh auto;
+    }
+
+    .products{
+        display:flex;
+        flex-wrap:wrap;
+        //justify-content: space-between;
+        width:95%;
+        margin:auto;
+
+        
+    }
+
+}
+
+@media screen and (max-width:900px){
+    .body-container{
+        width:100%;
+        .products{
+          flex-wrap:wrap;
+        }
+    }
+}
+
+@media screen and (max-width:500px){
+    .body-container{
+       
+        .products{
+          flex-direction:column;
+          gap:3vh;
+        }
+    }
+}

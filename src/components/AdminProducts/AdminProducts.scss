@@ -1,0 +1,31 @@
+
+.admin-product-container{
+    padding:2%;
+    .index{
+        display:flex;
+        justify-content:space-between;
+
+        button{
+            width:25px;
+            height:25px;
+            border-radius:50%;
+            background-color:red;
+            color:white;
+            border:none;
+            font-size:1.4rem;
+            cursor:pointer;
+        }
+    }
+
+    .headings{
+        display:flex;
+        justify-content: space between;
+        margin-bottom:3vh;
+        margin-top:5vh;
+
+        h3{
+            flex-basis:20%;
+        }
+    }
+}
+

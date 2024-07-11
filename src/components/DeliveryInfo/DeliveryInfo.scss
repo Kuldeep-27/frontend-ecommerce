@@ -1,0 +1,30 @@
+
+.delivery-info{
+   
+   
+    
+    margin:2vh auto;
+   
+    display:flex;
+    flex-direction: column;
+    width:50%;
+   
+
+    form{
+        display:flex;
+        flex-direction:column;
+        gap:3vh;
+        margin:2vh 0;
+
+        input[type = submit]{
+            background-color: blue;
+        }
+
+
+    }
+
+    button{
+        width:40%
+    }
+
+}

@@ -1,0 +1,18 @@
+
+.search-container{
+    display:flex;
+    flex-direction: column;
+    gap:3vh;
+
+    .search-heading{
+        display:flex;
+        align-items:center;
+        justify-content: center;
+    }
+
+    .search-list{
+        display:flex;
+        flex-wrap:wrap;
+    }
+
+}
