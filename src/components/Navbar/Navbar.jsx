@@ -94,7 +94,7 @@ const Navbar = () => {
               </div>
             ) : (
               <NavLink className="link btn" to="/login">
-                <h3 style={{color:white}}>Login</h3>
+                <h3 style={{color:"white"}}>Login</h3>
               </NavLink>
             )}
             {isLogin && (
